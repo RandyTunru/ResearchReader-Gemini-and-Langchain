@@ -6,18 +6,21 @@ A small, focused Streamlit app that answers questions only from the provided set
 
 1. Create & activate the environment (Conda):
 
-    ```conda create --name researchreader --file environment.yml
+    ```
+    conda create --name researchreader --file environment.yml
     conda activate researchreader
 
 2. Copy the example environment file and add your API key:
 
-    ```cp env.example .env
+    ```
+    cp env.example .env
     # then open .env and paste your Google Cloud / Gemini API key into the proper variable
     # (see env.example for the exact variable name used by this project)
 
 3. Run the Streamlit app:
 
-    `streamlit run app/app.py`
+    ```
+    streamlit run app/app.py
 
 ## Description
 
