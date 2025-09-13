@@ -1,0 +1,5 @@
+.env
+app/config/__pycache__
+app/config/faiss_index
+app/config/uploads
+app/utils/__pycache__
